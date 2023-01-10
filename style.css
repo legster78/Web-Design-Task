@@ -66,3 +66,36 @@
             border-top: 3px solid rgb(100, 100, 100);
             width: 50%;
         }
+
+        footer{
+            position: relative;
+            bottom: 0;
+        }
+
+        footer div{
+            padding: 15px;
+            background-color: white;
+            padding-left: 50px;
+        }
+
+        footer img{
+            width: 40px;
+            border-radius: 100%;
+        }
+
+        footer ul{
+            position: absolute;
+            right: 10px;
+            top: 0;
+            padding: 15px;
+        }
+
+        footer li{
+            display: inline;
+            padding: 0 10px 0 10px;
+        }
+
+        .red{
+            color: white;
+            background-color: rgb(145, 25, 25);
+        }
