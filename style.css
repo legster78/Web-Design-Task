@@ -6,8 +6,8 @@
     }
 
     .navbar {
-        border-bottom: 1px solid #d1d3d5;
-        padding: 16px;
+        background-color: rgb(145, 25, 25);
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ; 
         }
         
         .navbar .container{
@@ -17,8 +17,10 @@
         }
         
         .navbar a{
+        color: rgb(255, 255, 255);
         display: block;
         padding: .5em;
+        text-decoration: none;
         }
         
         .navbar-nav{
@@ -30,4 +32,16 @@
         
         .navbar-nav .nav-item{
         margin: 0 .5em;
+        }
+
+        .logoDiv{
+            padding: 20px;
+            display: flex; 
+            align-items: center;
+        }
+
+        .logoDiv hr{
+            flex:1;
+            border: none;
+            border-top: 3px solid rgb(145, 25, 25);
         }
