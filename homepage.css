@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    max-width: 1140px;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+    .navbar {
+        border-bottom: 1px solid #d1d3d5;
+        padding: 16px;
+        }
+        
+        .navbar .container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .navbar a{
+        display: block;
+        padding: .5em;
+        }
+        
+        .navbar-nav{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        
+        }
+        
+        .navbar-nav .nav-item{
+        margin: 0 .5em;
+        }
