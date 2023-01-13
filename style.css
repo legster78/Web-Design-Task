@@ -48,7 +48,11 @@ body{
         .logoDiv hr{
             flex:1;
             border: none;
-            border-top: 3px solid rgb(145, 25, 25);
+            border-top: 7px solid rgb(145, 25, 25);
+        }
+
+        .logoDiv img{
+            height: 120px;
         }
 
         body{
