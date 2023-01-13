@@ -2,6 +2,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
 .container{
     margin: auto;
     max-width: 1140px;
@@ -156,3 +161,55 @@ body{
             color: rgb(58, 58, 58);
             font-size: larger;
         }
+
+        form {
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+        }
+       
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+    
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .contact{
+            padding: 80px;
+        }
+
+        .contactheading{
+            color: rgb(58, 58, 58);
+            padding: 20px;
+            margin-left: 800px;
+        }
+
+        
