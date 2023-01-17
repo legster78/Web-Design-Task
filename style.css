@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -19,7 +24,8 @@ a {
         font-family: Verdana, Geneva, Tahoma, sans-serif    ;
         position: fixed;
         top: 0;
-        width: 100%; 
+        width: 100%;
+        padding: 15px 0; 
         }
         
         .navbar .container{
@@ -88,6 +94,7 @@ a {
             border: none;
             border-top: 3px solid rgb(100, 100, 100);
             width: 50%;
+            margin: auto;
         }
 
         footer{
@@ -164,6 +171,7 @@ a {
             border: none;
             border-top: 3px solid rgb(100, 100, 100);
             width: 30%;
+            margin: auto;
         }
 
         .newstitle{
@@ -218,7 +226,7 @@ a {
         .contactheading{
             color: rgb(58, 58, 58);
             padding: 20px;
-            margin-left: 800px;
+            text-align: center;
         }
 
         .submitbutton{
